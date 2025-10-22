@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Integration Suit]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Integration test case(failed)">
+    <classes>
+      <class name="amazon.AmazonToLogin">
+        <methods>
+          <include name="withValidCred"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- amazon.AmazonToLogin -->
+    </classes>
+  </test> <!-- Integration test case(failed) -->
+</suite> <!-- Failed suite [Integration Suit] -->

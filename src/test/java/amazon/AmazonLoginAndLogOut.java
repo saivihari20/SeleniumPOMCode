@@ -31,7 +31,7 @@ public class AmazonLoginAndLogOut extends BaseClass {
 		Reporter.log("Hoverover Account and List");
 		homepage.signOutAmazon();
 		Reporter.log("SIgnout from AMazon");
-		driver.quit();
+		//driver.quit();
 
 	}
 

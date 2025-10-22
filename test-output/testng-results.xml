@@ -11,25 +11,28 @@
       <![CDATA[Entered the Password]]>
     </line>
     <line>
-      <![CDATA[Login is Successful]]>
+      <![CDATA[Hoverover Account and List]]>
     </line>
     <line>
-      <![CDATA[Listner Logic is started Executig]]>
+      <![CDATA[SIgnout from AMazon]]>
     </line>
     <line>
-      <![CDATA[Screenshot was taken successfully]]>
+      <![CDATA[Test Passed: withValidCred]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot saved to: C:\D_DriveFolder\Vihari\Automation_2025\GroTechMind_25\eclipse_WS_pom\GroTechMindPom\screenshots\Pass\withValidCred_20251022_185137.png]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-10-15T19:41:49 IST" name="Default suite" finished-at="2025-10-15T19:42:10 IST" duration-ms="20453">
+  <suite started-at="2025-10-22T18:51:10 IST" name="Default suite" finished-at="2025-10-22T18:51:37 IST" duration-ms="27564">
     <groups>
     </groups>
-    <test started-at="2025-10-15T19:41:49 IST" name="Default test" finished-at="2025-10-15T19:42:10 IST" duration-ms="20453">
-      <class name="amazon.AmazonToLogin">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:amazon.AmazonToLogin@175c2241]" started-at="2025-10-15T19:41:49 IST" name="launchBrowser" finished-at="2025-10-15T19:41:53 IST" duration-ms="3853" status="PASS">
+    <test started-at="2025-10-22T18:51:10 IST" name="Default test" finished-at="2025-10-22T18:51:37 IST" duration-ms="27564">
+      <class name="amazon.AmazonLoginAndLogOut">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:amazon.AmazonLoginAndLogOut@206a70ef]" started-at="2025-10-22T18:51:10 IST" name="launchBrowser" finished-at="2025-10-22T18:51:13 IST" duration-ms="3444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="withValidCred()[pri:0, instance:amazon.AmazonToLogin@175c2241]" started-at="2025-10-15T19:41:53 IST" name="withValidCred" finished-at="2025-10-15T19:42:09 IST" duration-ms="15844" status="PASS">
+        <test-method signature="withValidCred()[pri:0, instance:amazon.AmazonLoginAndLogOut@206a70ef]" started-at="2025-10-22T18:51:13 IST" name="withValidCred" finished-at="2025-10-22T18:51:36 IST" duration-ms="23119" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[HomePage-HOverover on Account and list->click on Sigin]]>
@@ -41,21 +44,24 @@
               <![CDATA[Entered the Password]]>
             </line>
             <line>
-              <![CDATA[Login is Successful]]>
+              <![CDATA[Hoverover Account and List]]>
             </line>
             <line>
-              <![CDATA[Listner Logic is started Executig]]>
+              <![CDATA[SIgnout from AMazon]]>
             </line>
             <line>
-              <![CDATA[Screenshot was taken successfully]]>
+              <![CDATA[Test Passed: withValidCred]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot saved to: C:\D_DriveFolder\Vihari\Automation_2025\GroTechMind_25\eclipse_WS_pom\GroTechMindPom\screenshots\Pass\withValidCred_20251022_185137.png]]>
             </line>
           </reporter-output>
         </test-method> <!-- withValidCred -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:amazon.AmazonToLogin@175c2241]" started-at="2025-10-15T19:42:10 IST" name="closeBrowser" finished-at="2025-10-15T19:42:10 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:amazon.AmazonLoginAndLogOut@206a70ef]" started-at="2025-10-22T18:51:37 IST" name="closeBrowser" finished-at="2025-10-22T18:51:37 IST" duration-ms="539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- amazon.AmazonToLogin -->
+      </class> <!-- amazon.AmazonLoginAndLogOut -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
